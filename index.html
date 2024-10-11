@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="current">
+        <h2>Погода прямо сейчас в Венгрии</h2>
+        <table>
+            <tr>
+                <td>Температура</td>
+                <td id="temp"></td>
+            </tr>
+            <tr>
+                <td>Влажность</td>
+                <td id="humi"></td>
+            </tr>
+            <tr>
+                <td>Скорость ветра</td>
+                <td id="wind"></td>
+            </tr>
+            <tr>
+                <td>Уф индекс</td>
+                <td id="uvi"></td>
+            </tr>  
+        </table>
+
+
+        <div class="weekly">
+            <h2>Прогноз на неделю:</h2>
+            <table id="weeklyWeatherTable">
+                <thead>
+                    <tr>
+                        <th>День</th>
+                        <th>Температура (°C)</th>
+                        <th>Влажность (%)</th>
+                        <th>Скорость ветра (м/с)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="clock">
+        <h1>Текущее время в Венгрии (Будапешт)</h1>
+        <div id="clock">Загрузка...</div>
+    </div>
+
+
+
+
+
+
+
+    <script src="arlan.js"></script>
+</body>
+</html>
